@@ -1,0 +1,16 @@
+dominios virtuales
+C:\xampp\apache\conf\extra/vhost
+
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/ecommerceEmpresaRojas"
+    ServerName ecommerceRojas.com
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/ecommerceEmpresaRojas/api"
+    ServerName api.ecommerceRojas.com
+</VirtualHost>
+
+C:\Windows\System32\drivers\etc\hosts
+127.0.0.1       ecommerceRojas.com
+127.0.0.1       api.ecommerceRojas.com
