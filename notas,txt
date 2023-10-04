@@ -14,3 +14,8 @@ C:\xampp\apache\conf\extra/vhost
 C:\Windows\System32\drivers\etc\hosts
 127.0.0.1       ecommerceRojas.com
 127.0.0.1       api.ecommerceRojas.com
+
+
+/* Formas de visualisar lo que manda
+        echo '<pre>'; print_r($path); echo '</pre>';
+        var_dump($path);    */
