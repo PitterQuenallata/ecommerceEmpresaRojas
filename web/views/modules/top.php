@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background: black; color:white">
+<div class="container-fluid topColor">
     <div class="container">
         <div class="d-flex justify-content-between ">
             <div class="p-2">

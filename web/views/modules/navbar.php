@@ -1,21 +1,7 @@
-<!-- Navbar -->
-<style>
-    .dropdown-toggle::after {
-        display: none !important;
-    
-    }
-    ul{
-        padding: 0;
-        list-style: none;
-        text-decoration: none;
-    }
-</style>
+
 <div class="container py-2 py-lg-4">
-
     <div class="row">
-
         <div class="col-12 col-lg-2 mt-1">
-
             <div class="d-flex justify-content-center">
 
                 <a href="<?php echo $path ?>views/assets/js/index3.html" class="navbar-brand">
@@ -24,16 +10,14 @@
                 </a>
 
             </div>
-
-
         </div>
 
-        <div class="col-12 col-lg-7 col-md-12 col-xl-8 mt-1 px-3 px-lg-0">
+        <div class="col-12 col-lg-7 col-md-12 col-xl-8 mt-1 px-3 px-lg-0 "  > 
 
             <a class="nav-link float-start" data-widget="pushmenu" href="#" role="button"><i
                     class="fas fa-bars"></i></a>
 
-            <div class="dropdown px-1 float-start templateColor">
+            <div class="dropdown px-1 float-start templateColor ">
 
                 <a id="dropdownSubMenu1" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                     class="nav-link dropdown-toggle text-uppercase">
@@ -54,7 +38,7 @@
 
                         </a>
 
-                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none d-xxl-none d-xl-none d-md-none">
+                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none">
                             <li>
                                 <a tabindex="-1" href="#" class="dropdown-item">1</a>
                             </li>
@@ -96,7 +80,7 @@
 
                         </a>
 
-                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none d-xxl-none d-xl-none d-md-none">
+                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none">
                             <li>
                                 <a tabindex="-1" href="#" class="dropdown-item">Calzado para dama</a>
                             </li>
@@ -138,7 +122,7 @@
 
                         </a>
 
-                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none d-xxl-none d-xl-none d-md-none">
+                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none">
                             <li>
                                 <a tabindex="-1" href="#" class="dropdown-item">Telefonía Móvil</a>
                             </li>
@@ -180,7 +164,7 @@
 
                         </a>
 
-                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none d-xxl-none d-xl-none d-md-none">
+                        <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none">
                             <li>
                                 <a tabindex="-1" href="#" class="dropdown-item">Desarrollo Web</a>
                             </li>
