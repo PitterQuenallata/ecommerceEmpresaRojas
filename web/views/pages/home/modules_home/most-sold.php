@@ -59,11 +59,11 @@
 					
 					<figure class="imgProduct">
 						
-						<img src="<?php echo $path ?>views/assets/img/products/cursos/1/curso01.jpg" class="img-fluid">
+						<img src="<?php echo $path ?>views/assets/img/repuestos/10132.png" class="img-fluid">
 
 					</figure>
 
-					<h5><small class="text-uppercase text-muted">Curso de PHP</small></h5>	
+					<h5><small class="text-uppercase text-muted">Nose</small></h5>	
 
 				</a>
 
@@ -75,7 +75,7 @@
 					
 					<h5 class="float-start text-uppercase text-muted">
 						
-						<del class="small" style="color:#bbb">USD $29</del> $11
+						<del class="small" style="color:#bbb">BS $29</del> $11
 					</h5>
 
 					<span class="float-end">
@@ -101,11 +101,11 @@
 					
 					<figure class="imgProduct">
 						
-						<img src="<?php echo $path ?>views/assets/img/products/cursos/2/curso02.jpg" class="img-fluid">
+						<img src="<?php echo $path ?>views/assets/img/repuestos/10251.png" class="img-fluid">
 
 					</figure>
 
-					<h5><small class="text-uppercase text-muted">Curso de JQuery</small></h5>	
+					<h5><small class="text-uppercase text-muted">PLUGS</small></h5>	
 
 				</a>
 
@@ -117,7 +117,7 @@
 					
 					<h5 class="float-start text-uppercase text-muted">
 						
-						<del class="small" style="color:#bbb">USD $29</del> $11
+						<del class="small" style="color:#bbb">BS $29</del> $11
 					</h5>
 
 					<span class="float-end">
@@ -143,11 +143,11 @@
 					
 					<figure class="imgProduct">
 						
-						<img src="<?php echo $path ?>views/assets/img/products/cursos/3/curso03.jpg" class="img-fluid">
+						<img src="<?php echo $path ?>views/assets/img/repuestos/10301.png" class="img-fluid">
 
 					</figure>
 
-					<h5><small class="text-uppercase text-muted">Curso de Bootstrap</small>	</h5>	
+					<h5><small class="text-uppercase text-muted">NO seee</small>	</h5>	
 
 				</a>
 
@@ -159,7 +159,7 @@
 					
 					<h5 class="float-start text-uppercase text-muted">
 						
-						<del class="small" style="color:#bbb">USD $29</del> $11
+						<del class="small" style="color:#bbb">BS $29</del> $11
 					</h5>
 
 					<span class="float-end">
@@ -185,11 +185,11 @@
 					
 					<figure class="imgProduct">
 						
-						<img src="<?php echo $path ?>views/assets/img/products/cursos/4/curso04.jpg" class="img-fluid">
+						<img src="<?php echo $path ?>views/assets/img/repuestos/10359.png" class="img-fluid">
 
 					</figure>
 
-					<h5><small class="text-uppercase text-muted">Curso de JavaScript</small></h5>	
+					<h5><small class="text-uppercase text-muted">Nose</small></h5>	
 
 				</a>
 
@@ -201,7 +201,7 @@
 					
 					<h5 class="float-start text-uppercase text-muted">
 						
-						<del class="small" style="color:#bbb">USD $29</del> $11
+						<del class="small" style="color:#bbb">BS $29</del> $11
 					</h5>
 
 					<span class="float-end">
@@ -229,13 +229,13 @@
 	
 				<figure class="imgProduct">
 					
-					<img src="<?php echo $path ?>views/assets/img/products/cursos/1/curso01.jpg" style="width:150px">
+					<img src="<?php echo $path ?>views/assets/img/repuestos/10132.png" style="width:150px">
 
 				</figure>
 
 				<div class="media-body ps-3">
 					
-					<h5><small class="text-uppercase text-muted">Curso de PHP</small></h5>
+					<h5><small class="text-uppercase text-muted">nose</small></h5>
 
 					<span class="badge badgeNew bg-warning text-uppercase text-white p-2">Nuevo</span>
 
@@ -243,7 +243,7 @@
 
 					<div class="clearfix">
 						
-						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">USD $29</del> $11</h5>
+						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">BS $29</del> $11</h5>
 
 						<span class="float-end">
 							
@@ -268,13 +268,13 @@
 	
 				<figure class="imgProduct">
 					
-					<img src="<?php echo $path ?>views/assets/img/products/cursos/2/curso02.jpg" style="width:150px">
+					<img src="<?php echo $path ?>views/assets/img/repuestos/10251.png" style="width:150px">
 
 				</figure>
 
 				<div class="media-body ps-3">
 					
-					<h5><small class="text-uppercase text-muted">Curso de JQuery</small></h5>
+					<h5><small class="text-uppercase text-muted">NOSE</small></h5>
 
 					<span class="badge badgeNew bg-warning text-uppercase text-white p-2">Nuevo</span>
 
@@ -282,7 +282,7 @@
 
 					<div class="clearfix">
 						
-						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">USD $29</del> $11</h5>
+						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">BS $29</del> $11</h5>
 
 						<span class="float-end">
 							
@@ -307,13 +307,13 @@
 	
 				<figure class="imgProduct">
 					
-					<img src="<?php echo $path ?>views/assets/img/products/cursos/3/curso03.jpg" style="width:150px">
+					<img src="<?php echo $path ?>views/assets/img/repuestos/10301.png" style="width:150px">
 
 				</figure>
 
 				<div class="media-body ps-3">
 					
-					<h5><small class="text-uppercase text-muted">Curso de Bootstrap</small></h5>
+					<h5><small class="text-uppercase text-muted">Nose</small></h5>
 
 					<span class="badge badgeNew bg-warning text-uppercase text-white p-2">Nuevo</span>
 
@@ -321,7 +321,7 @@
 
 					<div class="clearfix">
 						
-						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">USD $29</del> $11</h5>
+						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">BS $29</del> $11</h5>
 
 						<span class="float-end">
 							
@@ -346,13 +346,13 @@
 	
 				<figure class="imgProduct">
 					
-					<img src="<?php echo $path ?>views/assets/img/products/cursos/4/curso04.jpg" style="width:150px">
+					<img src="<?php echo $path ?>views/assets/img/repuestos/10359.png" style="width:150px">
 
 				</figure>
 
 				<div class="media-body ps-3">
 					
-					<h5><small class="text-uppercase text-muted">Curso de JavaScript</small></h5>
+					<h5><small class="text-uppercase text-muted">Nose</small></h5>
 
 					<span class="badge badgeNew bg-warning text-uppercase text-white p-2">Nuevo</span>
 
@@ -360,7 +360,7 @@
 
 					<div class="clearfix">
 						
-						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">USD $29</del> $11</h5>
+						<h5 class="float-start text-uppercase text-muted"><del class="small" style="color:#bbb">BS $29</del> $11</h5>
 
 						<span class="float-end">
 							

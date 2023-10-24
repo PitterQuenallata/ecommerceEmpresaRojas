@@ -7,10 +7,10 @@
                 <img src="<?php echo $path ?>views/assets/img/slide/1/back_default.jpg" class="img-fluid">
 
                 <div class="slideOpt opt1">
-                    <img src="<?php echo $path ?>views/assets/img/slide/1/calzado.png" style="top:15%; right:10%; width:45%">
+                    <img src="<?php echo $path ?>views/assets/img/slide/1/slideMotor1.png" style="top:15%; right:14%; width:25%; height: 80%;">
 
                     <div class="slideText" style="top:20%; left:10%; width:40%">
-                        <h1 style="color:#333">Lorem Ipsum</h1>
+                        <h1 style="color:#333">Repuestos de Motores</h1>
                         <h2 style="color:#777">Lorem ipsum dolor sit</h2>
                         <h3 style="color:#888">Lorem ipsum dolor sit</h3>
                         <a href="#">
@@ -28,11 +28,11 @@
                 <img src="<?php echo $path ?>views/assets/img/slide/2/fondo2.jpg" class="img-fluid">
 
                 <div class="slideOpt opt2">
-                    <img src="<?php echo $path ?>views/assets/img/slide/2/iphone.png" style="bottom:0%; left:15%; width:28%">
+                    <img src="<?php echo $path ?>views/assets/img/slide/2/ecu.png" style="bottom:5%; left:15%; width:28%">
 
                     <div class="slideText" style="top:20%; right:15%; width:40%">
-                        <h1  style="color:#fff">Lorem Ipsum</h1>
-                        <h2  style="color:#fff">Lorem ipsum dolor sit</h2>
+                        <h1  style="color:#fff">Ecu</h1>
+                        <h2  style="color:#fff">La ECU es el corazón y el cerebro del sistema electrónico de un vehículo</h2>
                         <h3  style="color:#fff">Lorem ipsum dolor sit</h3>
 
                         <a href="#">
@@ -48,7 +48,7 @@
             <li>
 
             
-                <img src="<?php echo $path ?>views/assets/img/slide/3/fondo3.jpg" class="img-fluid">
+                <img src="<?php echo $path ?>views/assets/img/slide/3/slide3.png" class="img-fluid" style="bottom:5%;">
                 
                 <div class="slideOpt opt3">
 

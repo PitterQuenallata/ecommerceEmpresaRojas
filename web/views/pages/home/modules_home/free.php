@@ -35,6 +35,7 @@
 		<!-- GRID -->
 
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 pt-3 pb-4 grid-1">
+			
 			<div class="col px-3 py-2 py-lg-0">
 				<a href="#">
 					<figure class="imgProduct">

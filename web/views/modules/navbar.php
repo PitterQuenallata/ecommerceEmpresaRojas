@@ -3,11 +3,13 @@
     <div class="row">
         <div class="col-12 col-lg-2 mt-1">
             <div class="d-flex justify-content-center">
-
+                <div class="logoRojas">
                 <a href="<?php echo $path ?>views/assets/js/index3.html" class="navbar-brand">
-                    <img src="<?php echo $path ?>views/assets/img/template/logo.png"
-                        class="brand-image img-fluid py-3 px-5 p-lg-0 pe-lg-3">
+                    <img src="<?php echo $path ?>views/assets/img/logoRojas/logoRojas.png"
+                        class="brand-image img-fluid logoRojas" >
                 </a>
+                </div>
+
 
             </div>
         </div>
