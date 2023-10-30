@@ -4,8 +4,8 @@
         <div class="col-12 col-lg-2 mt-1">
             <div class="d-flex justify-content-center">
                 <div class="logoRojas">
-                <a href="<?php echo $path ?>views/assets/js/index3.html" class="navbar-brand">
-                    <img src="<?php echo $path ?>views/assets/img/logoRojas/logoRojas.png"
+                <a href="<?php echo $path ?>" class="navbar-brand">
+                    <img src="<?php echo $path ?>views/assets/img/logoRojas/<?php echo $template->logo_template ?>"
                         class="brand-image img-fluid logoRojas" >
                 </a>
                 </div>

@@ -2,7 +2,7 @@
 class  TemplateController{
     //Vista principal de la pla plantilla
     public function index(){
-        include "views/plantilla.php";
+        include "views/template.php";
     }
 
     //Ruta Principal o Dominio del sitio
