@@ -1,3 +1,5 @@
+$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq
+
 dominios virtuales
 C:\xampp\apache\conf\extra/vhost
 
@@ -19,3 +21,18 @@ C:\Windows\System32\drivers\etc\hosts
 /* Formas de visualisar lo que manda
         echo '<pre>'; print_r($path); echo '</pre>';
         var_dump($path);    */
+
+
+
+//instalacion de composer y phpmailer
+primero instalar composer y despues phpamiler desde github desde el cmd dentro de la carpeta web
+seguir la guia del git de phpmiler, colocando las clases:
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require_once "extensions/autoload.php";
+
+    //habilitar pruebas de envio para el servidor local
+        I:\xampp\php/php.init
+        buscar: sendmail_path = I:/xampp/mailtodisk/mailtodisk.exe
+        los correos se generan en mailoutput

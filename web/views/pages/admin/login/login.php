@@ -1,97 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-     <!-- font awesome icons -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- css stylesheet -->
-    <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/template/login.css">
-
-</head>
-<body>
-
-    <div class="containerE" id="containerE">
-        <div class="form-containerE sign-up-containerE">
-            <form action="#">
-                <h1>Crear Cuenta</h1>
-                <div class="social-containerE">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <span>o usa tu correo electrónico para registrarte</span>
-                <div class="infield">
-                    <input type="text" placeholder="Nombre" />
-                    <label></label>
-                </div>
-                <div class="infield">
-                    <input type="email" placeholder="Email" name="email"/>
-                    <label></label>
-                </div>
-                <div class="infield">
-                    <input type="password" placeholder="Contraseña" />
-                    <label></label>
-                </div>
-                <button>Registrarse</button>
-            </form>
-        </div>
-        <div class="form-containerE sign-in-containerE">
-            <form action="#">
-                <h1>Iniciar Sesión</h1>
-                <div class="social-containerE">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <span>o usar tu cuenta</span>
-                <div class="infield">
-                    <input type="email" placeholder="Email" name="email"/>
-                    <label></label>
-                </div>
-                <div class="infield">
-                    <input type="password" placeholder="Password" />
-                    <label></label>
-                </div>
-                <a href="#" class="forgot">¿Olvidaste tu contraseña</a>
-                <button>Iniciar Sesión</button>
-            </form>
-        </div>
-        <div class="overlay-containerE" id="overlayCon">
-            <div class="overlay">
-                <div class="overlay-panel overlay-left">
-                    <h1>¡Hola!</h1>
-                    <p>Inicia sesión con tu información personal</p>
-                    <button>Iniciar Sesión</button>
-                </div>
-                <div class="overlay-panel overlay-right">
-                    <h1>¡Hola, amigo!</h1>
-                    <p>Ingresa tus datos personales y comienza tu viaje con nosotros</p>
-                    <button>Registrarse</button>
-                </div>
+<div class="login-page" style="min-height: 466px;">
+    <div class="login-box">
+        <!-- /.login-logo -->
+        <div class="card card-outline card-dark">
+            <div class="card-header text-center">
+                <h3><b>Administradores<b></h3>
             </div>
-            <button id="overlayBtn"></button>
+            <div class="card-body">
+
+                <form  method="post" class="needs-validation" novalidate>
+
+                    <div class="input-group mb-3">
+                        <input 
+                            onchange="validateJS(event,'email')"
+                            type="email" 
+                            class="form-control" 
+                            placeholder="Email" 
+                            name="loginAdminEmail" 
+                            required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-envelope"></span>
+                            </div>
+                        </div>
+                        <div class="valid-feedback">Valido</div>
+                        <div class="invalid-feedback">Campo Invaldio</div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Contraseña" name="loginAdminPassword" required>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="valid-feedback">Valid</div>
+                        <div class="invalid-feedback">Campo Invalido</div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="icheck-primary">
+                                <input 
+                                    onchange="rememberEmail(event)"
+                                    type="checkbox" 
+                                    id="remember">
+                                <label for="remember">
+                                    Recordarme
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- /.col -->
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-default templateColor btn-block">Iniciar Sesión</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    
+                    <?php
+                        require_once "controllers/admins.controller.php";
+                        $login = new AdminsController();
+                        $login->login();
+                    ?>
+
+                </form>
+
+                <!-- <div class="social-auth-links text-center mt-2 mb-3 ">
+                    <a href="#" class="btn btn-block btn-default">
+                        <i class="fab fa-facebook mr-2 text-facebook"></i> Iniciar sesión con Facebook
+                    </a>
+                    <a href="#" class="btn btn-block btn-default">
+                        <i class="fab fa-google-plus mr-2  text-youtube"></i> Iniciar sesión con Google+
+                    </a>
+                </div> -->
+                <!-- /.social-auth-links -->
+                
+                <p class="mb-1">
+                    <a href="#resetPassword" data-bs-toggle="modal">Olvide mi contraseña</a>
+                </p>
+
+
+                <!-- <p class="mb-0">
+                    <a href="register.html" class="text-center">Registrar nuevo usuario</a>
+                </p> -->
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.login-box -->
+
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="resetPassword">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+            <h4 class="modal-title">Recuperar la contraseña</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body pb-0">
+            <p> Ingrese su correo electrónico</p>
+            <form method="post">
+                <div class="input-group bn.3">
+                    <input 
+                        onchange="validateJS(event,'email')"
+                        type="email" 
+                        class="form-control" 
+                        placeholder="Email" 
+                        name="resetPassword" 
+                        required>
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+                    <div class="valid-feedback">Valido</div>
+                    <div class="invalid-feedback">Campo Invaldio</div>
+                </div>
+                <div class="row">
+                    <!-- /.col -->
+                    <div class="col-7 pt-2 pb-2 container-fluid">
+                        <button type="submit" class="btn btn-default templateColor btn-block">Recibir ueva contraseña</button>
+                    </div>
+                    <!-- /.col -->
+                <?php
+                    require_once "controllers/admins.controller.php";
+                    $reset = new AdminsController();
+                    $reset->resetPassword();
+                ?>
+            </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer pt-1 pb-1 ">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+
         </div>
     </div>
-
-    
-    <!-- js code -->
-    <script>
-        const containerE = document.getElementById("containerE");
-        const overlayCon = document.getElementById("overlayCon");
-        const overlayBtn = document.getElementById("overlayBtn");
-
-        overlayBtn.addEventListener('click',()=>{
-            containerE.classList.toggle('right-panel-active');
-
-            overlayBtn.classList.remove('btnScaled');
-            window.requestAnimationFrame(()=>{
-                overlayBtn.classList.add('btnScaled');
-            });
-        });
-    </script>
-
-</body>
-</html>
+</div>

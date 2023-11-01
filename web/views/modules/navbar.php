@@ -16,8 +16,12 @@
 
         <div class="col-12 col-lg-7 col-md-12 col-xl-8 mt-1 px-3 px-lg-0 "  > 
 
-            <a class="nav-link float-start" data-widget="pushmenu" href="#" role="button"><i
-                    class="fas fa-bars"></i></a>
+            <?php if (isset($_SESSION["admin"])){ ?>
+                    <a class="nav-link float-start" data-widget="pushmenu" href="#" role="button"><i
+                    class="fas fa-bars"></i></a> 
+            <?php }?>
+            
+
 
             <div class="dropdown px-1 float-start templateColor ">
 

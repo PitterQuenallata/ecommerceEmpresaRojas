@@ -1,0 +1,8 @@
+.login-page, .reguster.page{
+  height: 70vh;
+}
+a{
+  font-size: 14px; color:rgb(95, 93, 93);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}

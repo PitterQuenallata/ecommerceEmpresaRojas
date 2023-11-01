@@ -12,13 +12,13 @@
     --grad-clr2: #243B55;
 }
 
-body {
-    height: 100vh;
+.content-wrapper-login {
+    min-height:100vh;
     background: #f6f5f7;
     display: grid;
     place-content: center;
     font-family: 'Poppins', sans-serif;
-}
+} 
 
 .containerE {
     position: relative;
@@ -43,7 +43,7 @@ body {
 .sign-in-containerE{
     z-index: 2;
 }
-form{
+.formLogin{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ form{
     justify-content: center;
     padding: 0px 50px;
 }
-h1 {
+.h1Login {
     color: var(--grad-clr1);
 }
 .social-containerE{
@@ -67,7 +67,7 @@ h1 {
     height: 40px;
     width: 40px;
 }
-span{
+.spanLogin{
     font-size: 12px;
 }
 .infield {
@@ -75,14 +75,14 @@ span{
     margin: 8px 0px;
     width: 100%;
 }
-input{
+.inputLogin{
     width: 100%;
     padding: 12px 15px;
     background-color: #f3f3f3;
     border: none;
     outline: none;
 }
-label {
+.labeLogin {
     position: absolute;
     left: 50%;
     top: 100%;
@@ -95,17 +95,17 @@ label {
 input:focus ~ label {
     width: 100%;
 }
-a {
+.social {
     color: #333;
     font-size: 14px;
     text-decoration: none;
     margin: 15px 0px;
 }
-a.forgot{
+.social.forgot{
     padding-bottom: 3px;
     border-bottom: 2px solid #eee;
 }
-button{
+.buttonLogin{
     border-radius: 20px;
     border: 1px solid var(--grad-clr1);
     background: var(--grad-clr2);
@@ -178,7 +178,7 @@ button{
 .overlay-panel h1{
     color: #fff;
 }
-p{
+.pLogin{
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -236,6 +236,85 @@ p{
     }
     100%{
         width: 143.67px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    /* .overlay-containerE {
+        opacity: 0;
+        z-index: -1;
+    }
+    .sign-up-containerE{
+        opacity: 0;
+        z-index: -1;
+    } */
+    .content-wrapper-login {
+
+        background: #60239c;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        font-family: 'Poppins', sans-serif;
+    }
+    .containerE{
+
+        width: 500px;
+        height: 500px;
+
+        display: flex;
+        flex-direction: row;
+    }  
+    .form-containerE {
+        width: 100%;
+    }
+    .h1Login {
+        font-size: 20px;
+    }
+
+    .social-containerE {
+        margin: 10px 0px;
+    }
+
+    .social-containerE a {
+        height: 35px;
+        width: 35px;
+    }
+
+    .spanLogin {
+        font-size: 10px;
+    }
+
+    .infield {
+        margin: 5px 0px;
+    }
+
+    .inputLogin {
+        padding: 10px 12px;
+    }
+
+    .buttonLogin {
+        font-size: 10px;
+        padding: 10px 35px;
+    }
+
+    #overlayBtn {
+        top: 254px;
+        width: 123.67px;
+        height: 30px;
+    }
+
+    .overlay-panel {
+        width: 280px;
+    }
+
+    .overlay-panel h1 {
+        font-size: 18px;
+    }
+
+    .pLogin {
+        margin: 15px 0px 25px;
     }
 }
 
