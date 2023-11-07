@@ -6,3 +6,18 @@ a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
 }
+
+
+.sidebar-dark-primary {
+  background-color: #071727  !important;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+  background-color: #13727b !important;
+  color: #fff;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+  background-color: #13727b !important;
+  color: #fff;
+}

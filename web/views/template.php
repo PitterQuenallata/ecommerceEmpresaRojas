@@ -33,6 +33,19 @@ if ($template->status == 200) {
 
     $template = $template->results[0];
 } else {
+    echo '<!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <link rel="stylesheet" href="' . $path . 'views/assets/css/plugins/adminlte/adminlte.min.css">
+        </head>
+        <body class="hold-transition sidebar-collapse layout-top-nav">
+        <div class="wrapper">';
+    include "pages/500/500.php";
+    echo '</div>
+        </body>
+        </html>';
+
+    return;
     //redireccionar a la pagina de error
 }
 
@@ -88,6 +101,11 @@ $templateColor = json_decode($template->colors_template)[1]->template;
     <!-- Material PreLoader -->
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/material-preloader/material-preloader.css">
 
+    <!-- DataTables -->
+    <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+
     <!-- Theme style -->
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/adminlte/adminlte.min.css">
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/template/template.css">
@@ -137,12 +155,28 @@ $templateColor = json_decode($template->colors_template)[1]->template;
     <script src="<?php echo $path ?>views/assets/js/plugins/material-preloader/material-preloader.js"></script>
 
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/template/colorSocial.css">
-
+    
+  <!-- DataTables  & Plugins -->
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/jszip/jszip.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="<?php echo $path ?>views/assets/js/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 
 </head>
 
 
 <body class="hold-transition sidebar-collapse layout-top-nav">
+
+<input type="hidden" id="urlPath" value="<?php echo $path ?>">
+
     <div class="wrapper">
 
         <?php
@@ -162,10 +196,9 @@ $templateColor = json_decode($template->colors_template)[1]->template;
             ) {
 
                 include "pages/" . $routesArray[0] . "/" . $routesArray[0] . ".php";
-               
             } else {
 
-                // include "pages/404/404.php";
+                include "pages/404/404.php";
             }
         } else {
 

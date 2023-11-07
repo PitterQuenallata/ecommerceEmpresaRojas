@@ -11,8 +11,8 @@
 
                     <div class="slideText" style="top:20%; left:10%; width:40%">
                         <h1 style="color:#333">Repuestos de Motores</h1>
-                        <h2 style="color:#777">Lorem ipsum dolor sit</h2>
-                        <h3 style="color:#888">Lorem ipsum dolor sit</h3>
+                        <h2 style="color:#777">Los mejores repuestos para tu motor</h2>
+                        <h3 style="color:#888">A mejor precio</h3>
                         <a href="#">
 
                             <button class="my-lg-3 btn text-uppercase templateColor border-0">
@@ -33,7 +33,7 @@
                     <div class="slideText" style="top:20%; right:15%; width:40%">
                         <h1  style="color:#fff">Ecu</h1>
                         <h2  style="color:#fff">La ECU es el corazón y el cerebro del sistema electrónico de un vehículo</h2>
-                        <h3  style="color:#fff">Lorem ipsum dolor sit</h3>
+                        <h3  style="color:#fff">A mejor precio</h3>
 
                         <a href="#">
                             <button class="my-lg-3 btn text-uppercase templateColor border-0">
@@ -53,9 +53,9 @@
                 <div class="slideOpt opt3">
 
                     <div class="slideText" style="top:20%; left:10%; width:40%">
-                        <h1 style="color:#333">Lorem Ipsum</h1>
-                        <h2 style="color:#777">Lorem ipsum dolor sit</h2>
-                        <h3 style="color:#888">Lorem ipsum dolor sit</h3>
+                        <h1 style="color:#fff">Toda clase de herramientas</h1>
+                        <h2 style="color:#fff">Pregunte</h2>
+                        <h3 style="color:#fff">A los mejores precios</h3>
                         <a href="#">
 
                             <button class="my-lg-3 btn text-uppercase templateColor border-0">

@@ -88,31 +88,31 @@
 
                         <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none">
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado para dama</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">1</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado para hombre</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">2</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado deportiva</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">3</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado infantil</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">4</a>
                             </li>
                         </ul>
 
                         <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado para dama</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">1</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado para hombre</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">2</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado deportiva</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">3</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Calzado infantil</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">4</a>
                             </li>
                         </ul>
 
@@ -130,31 +130,31 @@
 
                         <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none">
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Telefonía Móvil</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">1</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Tebletas electrónicas</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">2</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Computadoras</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">3</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Auriculares</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">4</a>
                             </li>
                         </ul>
 
                         <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Telefonía Móvil</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">1</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Tebletas electrónicas</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">2</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Computadoras</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">3</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Auriculares</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">4</a>
                             </li>
                         </ul>
 
@@ -172,31 +172,31 @@
 
                         <ul class="border-0 shadow py-3 ps-3 d-block d-lg-none">
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Desarrollo Web</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">1</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Aplicaciones Móviles</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">2</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Diseño Gráfico</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">3</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Marketing Digital</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">4</a>
                             </li>
                         </ul>
 
                         <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Desarrollo Web</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">1</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Aplicaciones Móviles</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">2</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Diseño Gráfico</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">3</a>
                             </li>
                             <li>
-                                <a tabindex="-1" href="#" class="dropdown-item">Marketing Digital</a>
+                                <a tabindex="-1" href="#" class="dropdown-item">4</a>
                             </li>
                         </ul>
 

@@ -34,7 +34,7 @@ if ($socials->status == 200) {
             <div class="p-2">
                 <div class="d-flex justify-content-center">
                     <div class="p-2">
-                        <a href="#" class="text-white">
+                        <a href="/admin" class="text-white">
                             Ingresar
                         </a>
                     </div>
